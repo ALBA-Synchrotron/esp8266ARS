@@ -42,13 +42,12 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
 #include "com.h"
 #include "sensors.h"
-#include "pwds.h"
+#include "config.h"
 
 //**************************************************************//
 //                 Gloabals declarations                        //
 //**************************************************************//
-#define DEVELOP
-#define DEBUG true
+
 #define BUZZER_ON LOW
 #define BUZZER_OFF HIGH
 #define SERVER_PORT 23
