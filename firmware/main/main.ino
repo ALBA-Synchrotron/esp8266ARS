@@ -172,7 +172,7 @@ void loop() {
   if (server.hasClient()){
     WiFiClient tmp = server.available();
     com = tmp;
-    tmp.stop();
+    //tmp.stop();
     has_client = true;
   }
   
