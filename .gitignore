@@ -2,3 +2,4 @@ pwds.h
 .idea
 *~
 *.pyc
+firmware/main/config.h
